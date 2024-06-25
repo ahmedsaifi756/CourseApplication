@@ -23,6 +23,10 @@ public class CourseController {
 	public String home() {
 		return "Assalamualaikum";
 	}
+	@GetMapping("/bad")
+	public String bad() {
+		return "Walaikum";
+	}
 	
 	@GetMapping("/courses")
 	public List<Courses> getAllCourses (){
